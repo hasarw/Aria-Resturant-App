@@ -1,0 +1,212 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap.css");
+@import url("style.css");
+@import url("bootstrap-datepicker.min.css");
+
+@font-face {
+    font-family: 'yekan';
+    src: url(fonts/Yekan.eot);
+    src: url(fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(fonts/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+body{
+    font-family: 'yekan';
+}
+
+
+.panel-heading {
+    text-align: right;
+}
+
+.panel-body{
+    text-align: right;
+    direction: rtl;
+}
+body .login .login-info{
+    direction: rtl;
+
+}
+
+.container{
+    width: 90% !important;
+}
+
+.login-info{
+    margin-right: 8%;
+    margin-left: 8%;
+    float: right;
+}
+
+
+#initial_row{
+    background-color: #ffa23f;
+    margin: 0px, 0px, 0px, 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.text-center {
+    text-align: -webkit-center;
+}
+
+
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+.navbar-brand {
+    padding: 0px;
+
+
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar-inverse{
+    background-color: #eeeeee;
+    border: none;
+}
+
+.nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: rgb(255, 128, 63) !important;
+}
+
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+
+.navbar-alignit .navbar-brand {
+    top: 50%;
+    display: block;
+    position: relative;
+    height: auto;
+    transform: translate(0,-50%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    z-index: 9999;
+}
+
+
+
+/* lets go right */
+
+.navbar .nav {
+    display: block;
+    float: right;
+    left: 0;
+    margin: 0 10px 0 0;
+    position: relative;
+}
+
+.navbar .brand {
+    color: #777777;
+    display: block;
+    float: right;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: -20px;
+    padding: 10px 20px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.navbar .nav > li {
+    float: right;
+}
+
+#table-right{
+    direction: rtl;
+    border: dotted 1px;
+}
+
+#table-right th,td{
+    text-align: -webkit-right !important;
+}
+
+.form_right{
+    direction: rtl;
+}
+
+#add_food_row{
+    float: right;
+}
+
+#add_food_row_2{
+    float: right;
+}
+
+.hidden {
+    display:none;
+}
+
+.img-box{
+    width: 150px;
+    height: 80px;
+}
+
+.food_list{
+    text-align: center;
+    padding: 10px;
+}
+
+.food_list:hover {
+    -webkit-filter: brightness(120%);
+    font-size: large;
+}
+
+
+.bigger{
+    height: 50px;
+}
+
+.subtable{
+    float: right;
+    margin: 10px;
+}
+
+.text-right-table{
+    float: right;
+    direction: rtl;
+    padding: 20px;
+}
+
+.td-space{
+    padding: 20px;
+}
+
+.text-right-2{
+    direction: rtl !important;
+}
+
+th {
+    text-align: right !important;
+}
